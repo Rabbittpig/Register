@@ -113,8 +113,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 info.append("年龄:"+etAge.getText().toString()+"\n");
                 info.append("电话:"+etPhone.getText().toString()+"\n");
                 info.append("地址:"+etAddress.getText().toString()+"\n");
-                info.append("性别"+gender+"\n");
-                info.append("爱好"+hobby.toString());
+                info.append("性别:"+gender+"\n");
+                info.append("爱好:"+hobby.toString());
                 tvContent.setText(info.toString());
                 break;
             case R.id.btn_cancel:
